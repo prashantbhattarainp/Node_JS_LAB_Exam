@@ -1,0 +1,30 @@
+Question 3: User Authentication System
+(Register/Login)
+Task:
+Create authentication APIs using:
+● Node.js
+● Express
+● MongoDB
+● Mongoose
+● bcrypt
+
+User Schema:
+{
+username: String,
+email: String,
+password: String
+}
+
+APIs:
+● POST /register
+● POST /login
+
+Requirements:
+● All fields required
+● Email must be unique
+● Hash password before storing
+● Compare password during login
+● Return proper status codes and messages
+
+Bonus:
+Generate JWT token after successful login.
